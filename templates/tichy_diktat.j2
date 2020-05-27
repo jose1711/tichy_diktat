@@ -1,0 +1,40 @@
+\documentclass[17pt]{extarticle}
+\usepackage{setspace}
+\usepackage[a4paper, margin=0.5in]{geometry}
+\pagenumbering{gobble}
+\renewcommand{\baselinestretch}{2}
+\usepackage{fontspec,unicode-math}
+\usepackage{newunicodechar}
+\usepackage{cancel}
+\usepackage{hyphenat}
+
+\newunicodechar{ď}{\ifmmode\breve{d}\else ď\fi}
+\newunicodechar{ň}{\ifmmode\breve{n}\else ň\fi}
+\newunicodechar{ľ}{\ifmmode\breve{l}\else ľ\fi}
+\newunicodechar{š}{\ifmmode\breve{s}\else š\fi}
+\newunicodechar{ť}{\ifmmode\breve{t}\else ť\fi}
+\newunicodechar{ž}{\ifmmode\breve{z}\else ž\fi}
+\newunicodechar{č}{\ifmmode\breve{c}\else č\fi}
+\newunicodechar{ô}{\ifmmode\hat{o}\else ô\fi}
+\newunicodechar{í}{\ifmmode\acute{\imath}\else í\fi}
+\newunicodechar{ý}{\ifmmode\acute{y}\else ý\fi}
+
+\newunicodechar{Ď}{\ifmmode\breve{D}\else Ď\fi}
+\newunicodechar{Ň}{\ifmmode\breve{N}\else Ň\fi}
+\newunicodechar{Ľ}{\ifmmode\breve{L}\else Ľ\fi}
+\newunicodechar{Š}{\ifmmode\breve{S}\else Š\fi}
+\newunicodechar{Ť}{\ifmmode\breve{T}\else Ť\fi}
+\newunicodechar{Ž}{\ifmmode\breve{Z}\else Ž\fi}
+\newunicodechar{Č}{\ifmmode\breve{C}\else Č\fi}
+\newunicodechar{Ô}{\ifmmode\hat{O}\else Ô\fi}
+\newunicodechar{Í}{\ifmmode\acute{I}\else Í\fi}
+\newunicodechar{Ý}{\ifmmode\acute{Y}\else Ý\fi}
+
+\doublespacing
+
+\begin{document}
+\setlength{\emergencystretch}{10em}
+
+{{ text }}
+
+\end{document}
