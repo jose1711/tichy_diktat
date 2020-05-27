@@ -1,6 +1,6 @@
 # tichy_diktat
 
-Skript na prevedenie ľubovoľného textu dikťatu do PDF. Žiak ho po vytlačení samostatne vyrieši, odpadá tým nutnosť diktovania. Vďaka tomu ho môže vypracovať samostatne a v jemu vyhovujúcom tempe.
+Skript na prevedenie ľubovoľného textu diktátu do PDF. Žiak ho po vytlačení samostatne vyrieši, odpadá tým nutnosť diktovania. Vďaka tomu ho môže vypracovať samostatne a v jemu vyhovujúcom tempe.
 
 Po vytlačení výstupu je (v predvolenom režime) úlohou žiaka:
  - čiarou spojiť písmená v slovách a zároveň sa pritom rozhodnúť medzi
