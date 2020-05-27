@@ -1,0 +1,1 @@
+# tichy_diktat
