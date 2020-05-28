@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
     space_map = { " ": ' \hspace{5mm}' }
 
-    input_string = re.sub(r'[^. ] *[A-ZÁÉÍÓÚĎŤŇĽŠČŽ]', lambda n: n.group().lower(), input_string)
+    input_string = re.sub(r'[^.?" ] *[A-ZÁÉÍÓÚĎŤŇĽŠČŽ]', lambda n: n.group().lower(), input_string)
     input_string = re.sub(r'^.', lambda n: n.group().upper(), input_string, flags=re.M)
 
     char_map = {}
